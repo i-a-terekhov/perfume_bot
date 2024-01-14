@@ -18,7 +18,7 @@ async def main(bot):
 
     dp = Dispatcher(
         storage=MemoryStorage(),
-        maintenance_mode=False  # режим обслуживания бота (True - заглушка, False - начальные приветственные сообщения)
+        maintenance_mode=False  # режим обслуживания бота (True - заглушка, False - более сложная заглушка)
     )
 
     dp.include_routers(
